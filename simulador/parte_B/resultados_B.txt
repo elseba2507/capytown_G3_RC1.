@@ -1,0 +1,70 @@
+=== Parte B · Thu Nov 12 09:25:51 AM -05 2026 · noise:=low camera:=false rviz:=false ===
+archivo     : exp1a_sim.csv  (314 muestras, 10.5 s)
+terminado   : si
+|e| medio (cm)            : 7.18
+|e| maximo (cm)           : 12.78
+t asentamiento +-2 cm (s) : no se asienta
+error final (cm)          : 2.73
+grafica     : exp1a_sim.png
+archivo     : exp1b_sim.csv  (336 muestras, 11.2 s)
+terminado   : si
+|e| medio (cm)            : 9.15
+|e| maximo (cm)           : 20.72
+t asentamiento +-2 cm (s) : no se asienta
+error final (cm)          : 3.98
+grafica     : exp1b_sim.png
+archivo     : exp1c_sim.csv  (302 muestras, 10.1 s)
+terminado   : si
+|e| medio (cm)            : 3.52
+|e| maximo (cm)           : 10.00
+t asentamiento +-2 cm (s) : no se asienta
+error final (cm)          : 2.01
+grafica     : exp1c_sim.png
+archivo     : exp1d_sim.csv  (308 muestras, 10.3 s)
+terminado   : si
+|e| medio (cm)            : 4.24
+|e| maximo (cm)           : 10.00
+t asentamiento +-2 cm (s) : 9.87
+error final (cm)          : 0.78
+grafica     : exp1d_sim.png
+--- Repetición de 1B y 1D: en la primera corrida /odom llegó a saltos (gráfica en escalera, CPU cargada)
+archivo     : exp1b_sim.csv  (310 muestras, 10.3 s)
+terminado   : si
+|e| medio (cm)            : 6.05
+|e| maximo (cm)           : 11.29
+t asentamiento +-2 cm (s) : 10.27
+error final (cm)          : 1.38
+grafica     : exp1b_sim.png
+archivo     : exp1d_sim.csv  (310 muestras, 10.3 s)
+terminado   : si
+|e| medio (cm)            : 5.30
+|e| maximo (cm)           : 10.00
+t asentamiento +-2 cm (s) : 10.23
+error final (cm)          : 1.71
+grafica     : exp1d_sim.png
+archivo     : exp1d_sim.csv  (310 muestras, 10.3 s)
+terminado   : si
+|e| medio (cm)            : 2.29
+|e| maximo (cm)           : 10.00
+t asentamiento +-2 cm (s) : 2.27
+error final (cm)          : 0.79
+grafica     : exp1d_sim.png
+exp1a_sim.csv                odom nuevo:  20.6 Hz (máximo posible 30)
+exp1b_sim.csv                odom nuevo:  26.4 Hz (máximo posible 30)
+exp1b_sim_odomlento.csv      odom nuevo:  11.0 Hz (máximo posible 30)
+exp1c_sim.csv                odom nuevo:  26.0 Hz (máximo posible 30)
+exp1d_sim.csv                odom nuevo:  16.5 Hz (máximo posible 30)
+exp1d_sim_odomlento.csv      odom nuevo:  13.7 Hz (máximo posible 30)
+exp1a_sim.csv                odom nuevo:  20.6 Hz (máximo posible 30)
+exp1b_sim.csv                odom nuevo:  26.4 Hz (máximo posible 30)
+exp1b_sim_odomlento.csv      odom nuevo:  11.0 Hz (máximo posible 30)
+exp1c_sim.csv                odom nuevo:  26.0 Hz (máximo posible 30)
+exp1d_sim.csv                odom nuevo:  14.0 Hz (máximo posible 30)
+exp1d_sim_odomlento.csv      odom nuevo:  13.7 Hz (máximo posible 30)
+archivo     : exp1d_sim.csv  (304 muestras, 10.1 s)
+terminado   : si
+|e| medio (cm)            : 2.45
+|e| maximo (cm)           : 10.00
+t asentamiento +-2 cm (s) : 5.20
+error final (cm)          : 0.21
+grafica     : exp1d_sim.png

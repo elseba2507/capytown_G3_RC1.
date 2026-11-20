@@ -1,0 +1,57 @@
+=== Parte C · Thu Nov 12 10:26:58 AM -05 2026 · noise:=low camera:=false rviz:=false ===
+archivo     : exp2a_sim.csv  (285 muestras, 9.5 s)
+terminado   : si
+sobreimpulso (%)          : 0.00
+t asentamiento +-2 deg (s): 3.86
+error final (deg)         : 1.48
+grafica     : exp2a_sim.png
+archivo     : exp2b_sim.csv  (219 muestras, 7.3 s)
+terminado   : si
+sobreimpulso (%)          : 5.21
+t asentamiento +-2 deg (s): 1.33
+error final (deg)         : 0.00
+grafica     : exp2b_sim.png
+archivo     : exp2c_sim.csv  (109 muestras, 3.6 s)
+terminado   : si
+sobreimpulso (%)          : 0.00
+t asentamiento +-2 deg (s): 1.27
+error final (deg)         : 0.61
+grafica     : exp2c_sim.png
+archivo     : exp2d_sim.csv  (274 muestras, 9.1 s)
+terminado   : si
+sobreimpulso (%)          : 3.86
+t asentamiento +-2 deg (s): 1.21
+error final (deg)         : 0.00
+grafica     : exp2d_sim.png
+archivo     : exp2e_sim.csv  (145 muestras, 4.8 s)
+terminado   : si
+sobreimpulso (%)          : 0.00
+t asentamiento +-2 deg (s): 1.59
+error final (deg)         : 0.64
+grafica     : exp2e_sim.png
+archivo     : exp2f_sim.csv  (181 muestras, 6.0 s)
+terminado   : si
+sobreimpulso (%)          : 1.60
+t asentamiento +-2 deg (s): 1.47
+error final (deg)         : 1.44
+grafica     : exp2f_sim.png
+exp2a_sim.csv    odom nuevo:  24.4 Hz (máximo 30)
+exp2b_sim.csv    odom nuevo:  16.0 Hz (máximo 30)
+exp2c_sim.csv    odom nuevo:  27.3 Hz (máximo 30)
+exp2d_sim.csv    odom nuevo:  18.1 Hz (máximo 30)
+exp2e_sim.csv    odom nuevo:  20.9 Hz (máximo 30)
+exp2f_sim.csv    odom nuevo:  19.6 Hz (máximo 30)
+archivo     : exp2b_sim.csv  (148 muestras, 4.9 s)
+terminado   : si
+sobreimpulso (%)          : 7.55
+t asentamiento +-2 deg (s): 1.29
+error final (deg)         : 0.01
+grafica     : exp2b_sim.png
+archivo     : exp2d_sim.csv  (430 muestras, 14.3 s)
+terminado   : si
+sobreimpulso (%)          : 6.75
+t asentamiento +-2 deg (s): 1.39
+error final (deg)         : 0.22
+grafica     : exp2d_sim.png
+exp2b_sim.csv    odom nuevo:  25.6 Hz
+exp2d_sim.csv    odom nuevo:  21.2 Hz

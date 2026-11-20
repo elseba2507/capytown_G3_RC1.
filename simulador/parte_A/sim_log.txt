@@ -1,0 +1,79 @@
+=== Parte A · Wed Nov 11 09:42:04 PM -05 2026 · noise:=high ===
+--- ros2 topic list
+/beep
+/camera/camera_info
+/camera/image_raw
+/cmd_vel
+/goal_pose
+/imu/data_raw
+/initialpose
+/joint_states
+/map
+/map_updates
+/odom
+/parameter_events
+/race/hud
+/race/hud_array
+/race/track_markers
+/robot_description
+/rosout
+/scan
+/sim/collision
+/sim/pose
+/tf
+/tf_static
+/vel_raw
+/voltage
+--- ros2 topic hz /odom
+average rate: 11.465
+	min: 0.004s max: 0.124s std dev: 0.03082s window: 13
+average rate: 10.704
+	min: 0.004s max: 0.153s std dev: 0.02694s window: 24
+--- ros2 topic echo /sim/pose --once
+header:
+  stamp:
+    sec: 1794451338
+    nanosec: 55395627
+  frame_id: map
+pose:
+  position:
+    x: 1.0
+    y: 1.0
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+---
+--- ros2 topic hz /odom (camera:=false, rviz:=false)
+average rate: 45.200
+	min: 0.001s max: 0.048s std dev: 0.01016s window: 47
+average rate: 47.058
+	min: 0.001s max: 0.048s std dev: 0.00896s window: 96
+average rate: 47.449
+	min: 0.001s max: 0.048s std dev: 0.00873s window: 146
+average rate: 48.042
+	min: 0.001s max: 0.048s std dev: 0.00883s window: 196
+--- ros2 topic hz /odom (camera:=false, rviz:=false)
+average rate: 43.212
+	min: 0.001s max: 0.050s std dev: 0.01129s window: 45
+average rate: 43.203
+	min: 0.001s max: 0.056s std dev: 0.01176s window: 89
+average rate: 45.131
+	min: 0.001s max: 0.056s std dev: 0.01119s window: 139
+average rate: 46.101
+	min: 0.001s max: 0.056s std dev: 0.01054s window: 189
+--- Frenada: pose 1 s y 3 s después del último /cmd_vel
+  position:
+    x: 1.1744173222509258
+    y: 1.0311600965138592
+  position:
+    x: 1.1744173222509258
+    y: 1.0311600965138592
+--- Recorrido de 1 m por lado hecho con ros2 topic pub (el teclado no respondía sin RViz)
+muestras: 3149  (157.4 s)
+cierre según /odom :   18.3 cm    yaw acumulado:   344.7 deg
+cierre REAL        :  106.0 cm    yaw acumulado:   352.1 deg
+--- Conclusión: /odom dice que el robot quedó a 18.3 cm del inicio, pero en realidad quedó a 106.0 cm. La diferencia (~88 cm) es lo que /odom no ve: el empujón del piso (noise:=high, 0.10 m/s), que las ruedas no miden, y el error de 5 % de la odometría. El piso además giró al robot 7.4° (352.1° real vs. 344.7° según /odom) sin que /odom lo notara.
+--- Nota: la primera medición de /odom (≈ 11 Hz) fue con la cámara simulada y RViz encendidos: la CPU no alcanzaba. Con camera:=false y rviz:=false sube a ≈ 46–48 Hz (lo esperado es 50 Hz).

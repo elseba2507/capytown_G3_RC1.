@@ -1,0 +1,170 @@
+=== Parte D · Thu Nov 12 10:49:20 AM -05 2026 · camera:=false rviz:=false ===
+=== 3A corrida 1 (low) ===
+muestras: 1519  (75.9 s)
+cierre según /odom :    8.8 cm    yaw acumulado:   358.1 deg
+cierre REAL        :   52.3 cm    yaw acumulado:   342.8 deg
+grafica            : exp3a_sim_run1_cierre.png
+archivo     : exp3a_sim_run1.csv  (1726 muestras, 57.5 s)
+terminado   : si
+error de cierre (cm)      : 8.76
+yaw acumulado (deg)       : 358.15
+|e| medio en rectas (cm)  : 1.43
+tiempo total (s)          : 57.53
+grafica     : exp3a_sim_run1.png
+=== 3A corrida 2 (low) ===
+muestras: 1529  (76.4 s)
+cierre según /odom :    8.0 cm    yaw acumulado:   356.4 deg
+cierre REAL        :   31.6 cm    yaw acumulado:   362.4 deg
+grafica            : exp3a_sim_run2_cierre.png
+archivo     : exp3a_sim_run2.csv  (2067 muestras, 68.9 s)
+terminado   : si
+error de cierre (cm)      : 7.97
+yaw acumulado (deg)       : 356.37
+|e| medio en rectas (cm)  : 0.87
+tiempo total (s)          : 68.87
+grafica     : exp3a_sim_run2.png
+=== 3A corrida 3 (low) ===
+muestras: 1502  (75.1 s)
+cierre según /odom :   10.2 cm    yaw acumulado:   361.8 deg
+cierre REAL        :   51.5 cm    yaw acumulado:   342.0 deg
+grafica            : exp3a_sim_run3_cierre.png
+archivo     : exp3a_sim_run3.csv  (1662 muestras, 55.4 s)
+terminado   : si
+error de cierre (cm)      : 10.21
+yaw acumulado (deg)       : 361.75
+|e| medio en rectas (cm)  : 3.51
+tiempo total (s)          : 55.38
+grafica     : exp3a_sim_run3.png
+=== 3B corrida 1 (low) ===
+muestras: 1264  (63.1 s)
+cierre según /odom :    0.5 cm    yaw acumulado:   359.2 deg
+cierre REAL        :    4.8 cm    yaw acumulado:   361.5 deg
+grafica            : exp3b_sim_run1_cierre.png
+archivo     : exp3b_sim_run1.csv  (1577 muestras, 52.6 s)
+terminado   : si
+error de cierre (cm)      : 0.55
+yaw acumulado (deg)       : 359.24
+|e| medio en rectas (cm)  : 0.79
+tiempo total (s)          : 52.55
+grafica     : exp3b_sim_run1.png
+=== 3B corrida 2 (low) ===
+muestras: 1274  (63.6 s)
+cierre según /odom :    1.3 cm    yaw acumulado:   359.4 deg
+cierre REAL        :   15.2 cm    yaw acumulado:   352.6 deg
+grafica            : exp3b_sim_run2_cierre.png
+archivo     : exp3b_sim_run2.csv  (1599 muestras, 53.3 s)
+terminado   : si
+error de cierre (cm)      : 1.34
+yaw acumulado (deg)       : 359.38
+|e| medio en rectas (cm)  : 0.82
+tiempo total (s)          : 53.29
+grafica     : exp3b_sim_run2.png
+=== 3B corrida 3 (low) ===
+muestras: 1319  (65.9 s)
+cierre según /odom :    5.1 cm    yaw acumulado:   361.7 deg
+cierre REAL        :   36.1 cm    yaw acumulado:   358.1 deg
+grafica            : exp3b_sim_run3_cierre.png
+archivo     : exp3b_sim_run3.csv  (1770 muestras, 59.0 s)
+terminado   : si
+error de cierre (cm)      : 5.12
+yaw acumulado (deg)       : 361.71
+|e| medio en rectas (cm)  : 0.85
+tiempo total (s)          : 59.00
+grafica     : exp3b_sim_run3.png
+=== 3C corrida 1 (low) ===
+muestras: 1370  (68.4 s)
+cierre según /odom :    2.3 cm    yaw acumulado:   359.4 deg
+cierre REAL        :   41.4 cm    yaw acumulado:   364.8 deg
+grafica            : exp3c_sim_run1_cierre.png
+archivo     : exp3c_sim_run1.csv  (1646 muestras, 54.8 s)
+terminado   : si
+error de cierre (cm)      : 2.29
+yaw acumulado (deg)       : 359.38
+|e| medio en rectas (cm)  : 0.86
+tiempo total (s)          : 54.85
+grafica     : exp3c_sim_run1.png
+=== 3C corrida 2 (low) ===
+muestras: 1099  (54.9 s)
+cierre según /odom :    0.3 cm    yaw acumulado:   359.5 deg
+cierre REAL        :   57.2 cm    yaw acumulado:   345.2 deg
+grafica            : exp3c_sim_run2_cierre.png
+archivo     : exp3c_sim_run2.csv  (1545 muestras, 51.5 s)
+terminado   : si
+error de cierre (cm)      : 0.31
+yaw acumulado (deg)       : 359.55
+|e| medio en rectas (cm)  : 0.85
+tiempo total (s)          : 51.47
+grafica     : exp3c_sim_run2.png
+=== 3C corrida 3 (low) ===
+muestras: 1405  (70.2 s)
+cierre según /odom :    0.3 cm    yaw acumulado:   359.3 deg
+cierre REAL        :   28.5 cm    yaw acumulado:   368.0 deg
+grafica            : exp3c_sim_run3_cierre.png
+archivo     : exp3c_sim_run3.csv  (1809 muestras, 60.3 s)
+terminado   : si
+error de cierre (cm)      : 0.34
+yaw acumulado (deg)       : 359.31
+|e| medio en rectas (cm)  : 0.88
+tiempo total (s)          : 60.30
+grafica     : exp3c_sim_run3.png
+=== 3B final: kp 3 ki 0.5 kd 4 / kp_yaw 5 kd_yaw 0.4 (low) ===
+muestras: 1219  (60.9 s)
+cierre según /odom :    0.2 cm    yaw acumulado:   359.5 deg
+cierre REAL        :   15.0 cm    yaw acumulado:   354.7 deg
+grafica            : exp3b_sim_final_cierre.png
+archivo     : exp3b_sim_final.csv  (1642 muestras, 54.7 s)
+terminado   : si
+error de cierre (cm)      : 0.22
+yaw acumulado (deg)       : 359.48
+|e| medio en rectas (cm)  : 0.51
+tiempo total (s)          : 54.73
+grafica     : exp3b_sim_final.png
+=== 3A (medium) ===
+muestras: 1727  (86.3 s)
+cierre según /odom :    9.1 cm    yaw acumulado:   361.2 deg
+cierre REAL        :   42.0 cm    yaw acumulado:   357.3 deg
+grafica            : exp3a_sim_medium_cierre.png
+archivo     : exp3a_sim_medium.csv  (2251 muestras, 75.0 s)
+terminado   : si
+error de cierre (cm)      : 9.13
+yaw acumulado (deg)       : 361.20
+|e| medio en rectas (cm)  : 3.10
+tiempo total (s)          : 75.03
+grafica     : exp3a_sim_medium.png
+=== 3B (medium) ===
+muestras: 1184  (59.1 s)
+cierre según /odom :    1.2 cm    yaw acumulado:   359.2 deg
+cierre REAL        :   32.1 cm    yaw acumulado:   375.5 deg
+grafica            : exp3b_sim_medium_cierre.png
+archivo     : exp3b_sim_medium.csv  (1513 muestras, 50.4 s)
+terminado   : si
+error de cierre (cm)      : 1.22
+yaw acumulado (deg)       : 359.24
+|e| medio en rectas (cm)  : 0.82
+tiempo total (s)          : 50.43
+grafica     : exp3b_sim_medium.png
+=== 3C (medium) ===
+muestras: 1493  (74.6 s)
+cierre según /odom :    0.2 cm    yaw acumulado:   359.3 deg
+cierre REAL        :  102.7 cm    yaw acumulado:   394.0 deg
+grafica            : exp3c_sim_medium_cierre.png
+archivo     : exp3c_sim_medium.csv  (1989 muestras, 66.3 s)
+terminado   : si
+error de cierre (cm)      : 0.17
+yaw acumulado (deg)       : 359.28
+|e| medio en rectas (cm)  : 0.87
+tiempo total (s)          : 66.27
+grafica     : exp3c_sim_medium.png
+exp3a_sim_run1.csv     odom nuevo:  27.2 Hz
+exp3a_sim_run2.csv     odom nuevo:  27.7 Hz
+exp3a_sim_run3.csv     odom nuevo:  23.3 Hz
+exp3b_sim_run1.csv     odom nuevo:  28.1 Hz
+exp3b_sim_run2.csv     odom nuevo:  25.4 Hz
+exp3b_sim_run3.csv     odom nuevo:  20.9 Hz
+exp3c_sim_run1.csv     odom nuevo:  25.2 Hz
+exp3c_sim_run2.csv     odom nuevo:  23.4 Hz
+exp3c_sim_run3.csv     odom nuevo:  24.5 Hz
+exp3b_sim_final.csv    odom nuevo:  26.1 Hz
+exp3a_sim_medium.csv   odom nuevo:  27.1 Hz
+exp3b_sim_medium.csv   odom nuevo:  22.7 Hz
+exp3c_sim_medium.csv   odom nuevo:  25.6 Hz
